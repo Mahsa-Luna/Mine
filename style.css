@@ -1,4 +1,78 @@
-h1 {
-  text-align: center;
-  color: darkred;
+a {
+  text-decoration: none;
+  color: rgb(127, 131, 136);
+}
+
+.container {
+  font-family: Google Sans, arial, sans-serif;
+  border: 1px solid transparent;
+  width: 750px;
+  min-width: 750px;
+  color: rgb(32, 33, 36);
+  margin-top: 30px;
+}
+
+.image1,
+.temp,
+.degree,
+.detail {
+  vertical-align: top;
+}
+
+.image1,
+.temp {
+  position: relative;
+  top: -8px;
+}
+
+.image1 {
+  width: 70px;
+}
+
+.head {
+  padding: 20px 0;
+}
+
+.temp {
+  font-size: 60px;
+  font-weight: 400;
+  color: #202124;
+  line-height: 70px;
+}
+
+.degree {
+  vertical-align: top;
+}
+
+.degree :hover {
+  cursor: pointer;
+}
+
+.detail {
+  color: rgb(127, 131, 136);
+  list-style-type: none;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.time {
+  color: rgb(127, 131, 136);
+}
+
+.btn-group {
+  margin: 30px auto;
+}
+
+.next-days {
+  margin: 50px auto;
+}
+
+.images {
+  width: 44px;
+}
+
+.temp-range {
+  font-size: 14px;
 }
